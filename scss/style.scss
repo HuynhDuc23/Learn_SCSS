@@ -1,0 +1,119 @@
+@import "mixins" ;
+@import "variable";
+
+
+@for $i from 0 through 10 {
+    .opacity-#{$i}{
+            opacity: $i*0.1;
+    }
+}
+
+
+
+.btn {
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    background: $color-gray;
+    color: $color-black ;
+    border: 0;
+    padding: 20px , 30px;
+    @include boder-radius;
+}
+.btn--red {
+    @extend .btn ;
+    color: $color-red;
+    background:yellow;
+}
+.btn--green {
+    @extend .btn ;
+    color: green;
+    background: yellow;
+    
+}
+.nav {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    @include display-flex;
+    &__item {
+        @include boder-radius;
+        background-color: yellow;
+        width: 120px;
+        height: 40px;
+        margin: 0 30px;
+        &:hover{
+            background-color:$color-pink ;
+        }
+    }
+    &__link {
+        text-decoration: none;
+        color:$color-green;
+        &--active{
+            color:$color-red;
+        }
+        &--disable{
+            color:bisque; 
+            cursor: no-drop;
+        }
+    }   
+}
+.pagenation{
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     @include display-flex ;
+     &__item{
+        margin: 0 20px;
+        background-color: $color-yellow;
+        padding : 20px 40px;
+       @include boder-radius ;
+        &:hover{
+            background-color: $color-black;
+            color: $color-red;
+        }
+     }
+     &__link{
+        text-decoration: none;
+        
+     }
+}
+.box2{
+    background: orange;
+    width: calc(50px/50px);
+}
+// While() và Bước Nhảy
+$i : 0 ;
+$length : 100 ;
+@while($i<=$length){
+    .mg-bottom-#{$i} {
+        margin-bottom: $i;
+    }
+    $i:$i+5px;
+}
+
+// @each
+$colors: red , yellow , green,blue ;
+@each $item1 in $colors {
+    .btn--#{$item1}{
+        background: $item1;
+    }
+}
+
+$colors2 : ("blue","4a4afa","#fff"),("red","#e15b5b","#000") ;
+@each $label , $bg ,$color in $colors2 {
+    .btn--#{$label} {
+        background: $bg;
+        color: $color;
+    }
+}
+
+// function trong scss luôn trả về return
+@function sum($a,$b){
+     $c:$a+$b ;
+    @return $c +px ;
+}
+.box-test {
+    width:sum(20,30);
+}
+// import file với scss _ nó sẽ không biên dịch

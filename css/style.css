@@ -1,0 +1,253 @@
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-1 {
+  opacity: 0.1;
+}
+
+.opacity-2 {
+  opacity: 0.2;
+}
+
+.opacity-3 {
+  opacity: 0.3;
+}
+
+.opacity-4 {
+  opacity: 0.4;
+}
+
+.opacity-5 {
+  opacity: 0.5;
+}
+
+.opacity-6 {
+  opacity: 0.6;
+}
+
+.opacity-7 {
+  opacity: 0.7;
+}
+
+.opacity-8 {
+  opacity: 0.8;
+}
+
+.opacity-9 {
+  opacity: 0.9;
+}
+
+.opacity-10 {
+  opacity: 1;
+}
+
+.btn, .btn--green, .btn--red {
+  margin-top: 10px;
+  width: 100px;
+  height: 50px;
+  background: gray;
+  color: black;
+  border: 0;
+  padding: 20px, 30px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.btn--red {
+  color: red;
+  background: yellow;
+}
+
+.btn--green {
+  color: green;
+  background: yellow;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.nav__item {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background-color: yellow;
+  width: 120px;
+  height: 40px;
+  margin: 0 30px;
+}
+.nav__item:hover {
+  background-color: pink;
+}
+.nav__link {
+  text-decoration: none;
+  color: green;
+}
+.nav__link--active {
+  color: red;
+}
+.nav__link--disable {
+  color: bisque;
+  cursor: no-drop;
+}
+
+.pagenation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.pagenation__item {
+  margin: 0 20px;
+  background-color: yellow;
+  padding: 20px 40px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+.pagenation__item:hover {
+  background-color: black;
+  color: red;
+}
+.pagenation__link {
+  text-decoration: none;
+}
+
+.box2 {
+  background: orange;
+  width: 1;
+}
+
+.mg-bottom-0 {
+  margin-bottom: 0;
+}
+
+.mg-bottom-5px {
+  margin-bottom: 5px;
+}
+
+.mg-bottom-10px {
+  margin-bottom: 10px;
+}
+
+.mg-bottom-15px {
+  margin-bottom: 15px;
+}
+
+.mg-bottom-20px {
+  margin-bottom: 20px;
+}
+
+.mg-bottom-25px {
+  margin-bottom: 25px;
+}
+
+.mg-bottom-30px {
+  margin-bottom: 30px;
+}
+
+.mg-bottom-35px {
+  margin-bottom: 35px;
+}
+
+.mg-bottom-40px {
+  margin-bottom: 40px;
+}
+
+.mg-bottom-45px {
+  margin-bottom: 45px;
+}
+
+.mg-bottom-50px {
+  margin-bottom: 50px;
+}
+
+.mg-bottom-55px {
+  margin-bottom: 55px;
+}
+
+.mg-bottom-60px {
+  margin-bottom: 60px;
+}
+
+.mg-bottom-65px {
+  margin-bottom: 65px;
+}
+
+.mg-bottom-70px {
+  margin-bottom: 70px;
+}
+
+.mg-bottom-75px {
+  margin-bottom: 75px;
+}
+
+.mg-bottom-80px {
+  margin-bottom: 80px;
+}
+
+.mg-bottom-85px {
+  margin-bottom: 85px;
+}
+
+.mg-bottom-90px {
+  margin-bottom: 90px;
+}
+
+.mg-bottom-95px {
+  margin-bottom: 95px;
+}
+
+.mg-bottom-100px {
+  margin-bottom: 100px;
+}
+
+.btn--red {
+  background: red;
+}
+
+.btn--yellow {
+  background: yellow;
+}
+
+.btn--green {
+  background: green;
+}
+
+.btn--blue {
+  background: blue;
+}
+
+.btn--blue {
+  background: "4a4afa";
+  color: "#fff";
+}
+
+.btn--red {
+  background: "#e15b5b";
+  color: "#000";
+}
+
+.box-test {
+  width: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
